@@ -1,24 +1,31 @@
 {
-  "name": "interview-backend-express",
-  "version": "1.0.0",
-  "type": "module",
-  "description": "prepare interview for full stack development 25-july-2023",
-  "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "node index.js"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/helloamarnath/interview-backend-express.git"
-  },
-  "author": "Amarnath",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/helloamarnath/interview-backend-express/issues"
-  },
-  "homepage": "https://github.com/helloamarnath/interview-backend-express#readme",
-  "dependencies": {
-    "express": "^4.18.2"
-  }
+    "name": "interview-backend-express",
+    "version": "1.0.0",
+    "type": "module",
+    "description": "prepare interview for full stack development 25-july-2023",
+    "main": "index.js",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1",
+        "start": "node index.js",
+        "format:check": "prettier --check .",
+        "format:write": "prettier --write ."
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/helloamarnath/interview-backend-express.git"
+    },
+    "author": "Amarnath",
+    "license": "ISC",
+    "bugs": {
+        "url": "https://github.com/helloamarnath/interview-backend-express/issues"
+    },
+    "homepage": "https://github.com/helloamarnath/interview-backend-express#readme",
+    "dependencies": {
+        "express": "^4.18.2"
+    },
+    "devDependencies": {
+        "eslint": "^8.45.0",
+        "eslint-config-prettier": "^8.8.0",
+        "prettier": "^3.0.0"
+    }
 }
