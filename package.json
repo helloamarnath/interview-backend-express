@@ -8,7 +8,9 @@
         "test": "echo \"Error: no test specified\" && exit 1",
         "start": "node index.js",
         "format:check": "prettier --check .",
-        "format:write": "prettier --write ."
+        "format:write": "prettier --write .",
+        "lint:check": "eslint .",
+        "lint:fix": "eslint --fix ."
     },
     "repository": {
         "type": "git",
