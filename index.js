@@ -7,6 +7,10 @@ app.use(cors());
 app.use(bodyParser.urlencoded({ extended: false }));
 // parse application/json
 app.use(bodyParser.json());
+
+app.use('/', (req, res) => {
+    return res.json({ success: true, data: {}, message: 'server is running' });
+});
 app.listen(3000, () => {
     console.log('server established in port 3000');
 });
