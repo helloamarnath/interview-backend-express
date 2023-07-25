@@ -1,0 +1,19 @@
+{
+  "name": "interview-backend-express",
+  "version": "1.0.0",
+  "description": "prepare interview for full stack development 25-july-2023",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/helloamarnath/interview-backend-express.git"
+  },
+  "author": "Amarnath",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/helloamarnath/interview-backend-express/issues"
+  },
+  "homepage": "https://github.com/helloamarnath/interview-backend-express#readme"
+}
