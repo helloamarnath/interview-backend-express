@@ -29,3 +29,5 @@ docker rm <containerid>
 # List all images
 
 docker images -a
+
+# install redis in docker
