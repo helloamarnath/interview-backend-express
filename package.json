@@ -23,11 +23,14 @@
     },
     "homepage": "https://github.com/helloamarnath/interview-backend-express#readme",
     "dependencies": {
+        "bcryptjs": "^2.4.3",
         "body-parser": "^1.20.2",
         "cors": "^2.8.5",
         "dotenv": "^16.3.1",
         "express": "^4.18.2",
-        "mongoose": "^7.4.1"
+        "mongoose": "^7.4.1",
+        "passport": "^0.6.0",
+        "passport-jwt": "^4.0.1"
     },
     "devDependencies": {
         "eslint": "^8.45.0",
